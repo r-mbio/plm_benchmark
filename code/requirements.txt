@@ -1,0 +1,30 @@
+# EC Benchmark Requirements
+# Python 3.10+
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data handling
+h5py>=3.8.0
+biopython>=1.81
+pyyaml>=6.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotnine>=0.12.0
+plotnine-prism>=0.1.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Optional: For generating embeddings
+# transformers>=4.30.0
+# fair-esm>=2.0.0
